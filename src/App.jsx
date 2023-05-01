@@ -43,7 +43,7 @@ function App() {
         </div>
       </div>
       <div className="glass focus-sm bg-slate-100 rounded-2xl mt-10">
-        <p className="text-red-600 p-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam debitis totam facilis sit quisquam odit. Laborum voluptatem, dolorum nisi maxime totam consequuntur dignissimos quod possimus officiis harum, excepturi laboriosam corporis!</p>
+        <p className="text-red-600 p-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam debitis totam facilis sit quisquam odit. Laborum voluptatem, dolorum nisi maxime totam consequuntur dignissimos quod possimus officiis harum, excepturi laboriosam corporis!</p>
       </div>
     </div>
   )
