@@ -1,6 +1,6 @@
 function Head() {
     return (
-        <div className="container center flex-row mt-7 ">
+        <div className="container center flex-row mt-7 sticky-top">
           <a href="./" className="mr-5 text-white">Product</a>
           <a href="./" className="mr-5 text-white">Resource</a>
           <a href="./" className="mr-5 text-white">Pricing</a>
