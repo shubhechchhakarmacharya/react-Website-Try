@@ -4,3 +4,6 @@ body{
 .bot{
     text-align: center;
 }
+.collapse {
+    visibility: visible;
+  }

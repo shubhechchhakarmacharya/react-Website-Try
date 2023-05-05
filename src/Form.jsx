@@ -1,4 +1,6 @@
-function Form() {
+import PropTypes from 'prop-types'
+
+function Form(props) {
     return (
         <div className="Form mt-10">
             <form class="row g-3">
@@ -22,7 +24,7 @@ function Form() {
                     <input type="text" class="form-control" id="validationDefault03" required/>
                 </div>
                 <div class="col-md-3">
-                    <label for="validationDefault04" class="form-label text-white">State</label>
+                    <label for="validationDefault04" class="form-label text-white">{props.state}</label>
                     <select class="form-select" id="validationDefault04" required>
                         <option selected disabled value="">Choose...</option>
                         <option>...</option>
@@ -49,4 +51,11 @@ function Form() {
         </div >
     )
 }
-export default Form
+export default Form 
+Form.PropTypes = {
+    state : PropTypes.string
+}
+
+Form.defaultProps ={  //This automatically gives the value for state
+    state: "State"
+}
